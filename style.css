@@ -1,0 +1,36 @@
+h1 {
+    color: rgb(2, 46, 9);
+    margin-left: 50px;
+     
+}
+body{
+    background-color: rgb(250,25,150);
+}
+.header{
+    background-color:#00ff00;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.Item{
+    border: solid;
+
+}
+a :link{
+    color:green;
+}
+a :visited{
+    color: yellow;
+}
